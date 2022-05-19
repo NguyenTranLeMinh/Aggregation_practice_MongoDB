@@ -1,0 +1,3 @@
+mongorestore --nsInclude=people.* ./dump/
+
+(trong dump có thư mục people chứa 2 file people.bson và people.metadata.json)
